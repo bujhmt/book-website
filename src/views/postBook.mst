@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html>
+    {{> head}}
+    <body>
+    {{> header}}
+        <div class="card #000 new-book-card">
+            <div class="card-content black-text">
+                <div class="new-book-form">
+                    <form action="/api/postBook" 
+                          method="post" 
+                          enctype="multipart/form-data" 
+                    >
+                        <div class="input-field">
+                            <i class="material-icons prefix">book</i>
+                            <input
+                                id="title"
+                                type="text"
+                                class="validate"
+                                placeholder="Title"
+                                name="title"
+                            />
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input
+                                id="author"
+                                type="text"
+                                class="validate"
+                                placeholder="Author"
+                                name="author"
+                            />
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">import_contacts</i>
+                            <input
+                                id="numOfPages"
+                                type="number"
+                                class="validate"
+                                min="0"
+                                max="10000"
+                                step="1"
+                                placeholder="Number of Pages"
+                                name="numOfPages"
+                            />
+                        </div>
+                        <div class="post-buttons-wrapper">
+                            <div class="file-field input-field">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input
+                                        type="file"
+                                        name="picture"
+                                    />
+                                </div>
+                            </div>
+                            <div class="buttons-wrapper">
+                                <button
+                                    class="btn waves-effect waves-light"
+                                    type="submit"
+                                >
+                                    Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+{
+    "nextId": 16,
+    "items": [
+        {
+            "login": "test",
+            "fullname": "ilya rumarenko",
+            "role": 0,
+            "registeredAt": "2020-09-23T00:00:00",
+            "avaUrl": "null",
+            "isEnabled": true,
+            "id": 1
+        },
+        {
+            "login": "ldmit",
+            "fullname": "Lidia",
+            "role": 0,
+            "registeredAt": "2020-08-19T21:00:00.000Z",
+            "avaUrl": "null",
+            "isEnabled": true,
+            "id": 3
+        },
+        {
+            "login": "alex",
+            "fullname": "Olesiy",
+            "role": 0,
+            "registeredAt": "2020-07-01T00:00:00.000Z",
+            "avaUrl": "null",
+            "isEnabled": true,
+            "id": 4
+        },
+        {
+            "login": "igor",
+            "fullname": "fenchenko",
+            "role": 0,
+            "registeredAt": "2020-09-23T09:00:14.410Z",
+            "avaUrl": "/api/media/6",
+            "isEnabled": true,
+            "id": 6
+        },
+        {
+            "login": "Iluxa2",
+            "fullname": "ilya rumarenko",
+            "role": 0,
+            "registeredAt": "2020-09-23T00:00:00",
+            "avaUrl": "null",
+            "isEnabled": true,
+            "id": 11
+        },
+        {
+            "id": 12,
+            "login": "doc_user",
+            "fullname": "smth_new",
+            "role": 0,
+            "registeredAt": "2020-10-08T12:19:16.388Z",
+            "avaUrl": "null",
+            "isEnabled": true
+        },
+        {
+            "login": "test3",
+            "fullname": "robot",
+            "role": 0,
+            "registeredAt": "2020-10-27T10:46:13.807Z",
+            "avaUrl": "null",
+            "isEnabled": true,
+            "id": 13
+        },
+        {
+            "id": 14,
+            "login": "string",
+            "fullname": "string",
+            "registeredAt": "2020-10-28T16:08:50.045Z",
+            "role": 0,
+            "avaUrl": "null",
+            "isEnabled": true
+        },
+        {
+            "email": "",
+            "avaUrl": "/api/media/10",
+            "password": "$2a$12$sfqb.IFn8fLm/08crkNru.ZcvKAS.2msIUotfZ6ky03MggBWfRn0.",
+            "login": "bujhmt",
+            "id": 15
+        }
+    ]
+}

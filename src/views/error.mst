@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    {{> head}}
+    <body>
+    {{> header}}
+        <div class="error">
+            <h1>{{code}}</h1> <br>
+            <p>{{message}}</p>
+        </div>
+    </body>
+</html>

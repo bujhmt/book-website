@@ -1,0 +1,119 @@
+#logo {
+    width: 85px;
+}
+
+body {
+    background-image: url('/images/blure-background.jpg');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo-wrapper {
+    display: flex !important;
+    justify-content: center;
+}
+
+.logo-wrapper > img {
+    width: 64px !important;
+    height: 64px !important;
+    margin-right: 20px;
+}
+
+.user-books-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+}
+
+.user-books-img {
+    max-width: 70%;
+    border-radius: 30px;
+}
+
+.user-books-card {
+    width: 80%;
+    margin: auto !important;
+    border-radius: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+.user-books-card-content-div {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.user-books-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pag_link {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.pag_link > a {
+    margin-right: 30px !important;
+    width: 20px;
+    border-radius: 31px;
+}
+
+.pag_but {
+    padding: 5px 28px 5px 28px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 100px;
+}
+
+.main-books-page-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 50px 150px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.my-card {
+    position: fixed !important;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 15px !important;
+    left: 5%;
+}
+
+.new-book-card {
+    width: 60%;
+    margin: auto !important;
+    margin-top: 30px !important;
+    border-radius: 30px !important;
+}
+
+.book-card {
+    width: 70% !important;
+    border-radius: 35px !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+}
+
+.delete-button {
+    background-color: crimson !important;
+}
+
+.post-buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warning {
+    background-color: crimson;
+}

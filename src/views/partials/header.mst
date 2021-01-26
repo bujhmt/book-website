@@ -1,0 +1,16 @@
+<header>
+<nav>
+    <div class="nav-wrapper">
+        <div class="brand-logo logo-wrapper">
+            <img id='logo' src="/images/logo.jpeg" alt="Website logo">
+            <span>lab3</span>
+        </div>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/views/">Home</a></li>
+            <li><a href="/views/users">Users</a></li>
+            <li><a href="/views/books">Books</a></li>
+            <li><a href="/views/about">About</a></li>
+        </ul>
+    </div>
+</nav>
+</header>

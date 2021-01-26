@@ -1,0 +1,140 @@
+{
+    "nextId": 51,
+    "items": [
+        {
+            "title": "rgdfrgvd",
+            "author": "dgfdgdf",
+            "publicationDate": "2020-11-17",
+            "numOfPages": 8,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 22
+        },
+        {
+            "title": "rgdfrgvd",
+            "author": "dgfdgdf",
+            "publicationDate": "2020-11-17",
+            "numOfPages": 8,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 23
+        },
+        {
+            "title": "cat",
+            "author": "dgfdgdf",
+            "publicationDate": "2020-11-17",
+            "numOfPages": 8,
+            "rating": 5,
+            "imgUrl": "/api/media/13",
+            "id": 24
+        },
+        {
+            "title": "sdvsffvf",
+            "author": "sdfsfds",
+            "publicationDate": "2020-11-19",
+            "numOfPages": 300,
+            "rating": 5,
+            "imgUrl": "/api/media/14",
+            "id": 25
+        },
+        {
+            "title": "wrfe",
+            "author": "frefe",
+            "publicationDate": "2020-11-24",
+            "numOfPages": 423,
+            "rating": 10,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 26
+        },
+        {
+            "title": "wrfe",
+            "author": "frefe",
+            "publicationDate": "2020-11-24",
+            "numOfPages": 423,
+            "rating": 10,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 27
+        },
+        {
+            "title": "ef",
+            "author": "erfe",
+            "publicationDate": "2020-11-23",
+            "numOfPages": 33,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 28
+        },
+        {
+            "title": "egrfe",
+            "author": "erfe",
+            "publicationDate": "2020-11-17",
+            "numOfPages": 323,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 29
+        },
+        {
+            "title": "sdfs",
+            "author": "sedsf",
+            "publicationDate": "2020-09-16",
+            "numOfPages": 23,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 30
+        },
+        {
+            "title": "wedfw",
+            "author": "few",
+            "publicationDate": "2018-12-12",
+            "numOfPages": null,
+            "rating": 5,
+            "bookImg": "/book.webp",
+            "imgUrl": "null",
+            "id": 31
+        },
+        {
+            "title": "test",
+            "author": "Igor",
+            "publicationDate": "2020-12-04",
+            "numOfPages": 33,
+            "rating": 5,
+            "imgUrl": "/api/media/16",
+            "id": 40
+        },
+        {
+            "title": "Hyperion",
+            "author": "D Simmens",
+            "numOfPages": 300,
+            "imgUrl": "/api/media/21",
+            "id": 46
+        },
+        {
+            "title": "pdf",
+            "author": "eqwe",
+            "numOfPages": 33,
+            "imgUrl": "null",
+            "id": 47
+        },
+        {
+            "title": "Hi",
+            "author": "New book",
+            "numOfPages": null,
+            "imgUrl": "/api/media/22",
+            "id": 48
+        },
+        {
+            "title": "Mega book",
+            "author": "bujhmt",
+            "numOfPages": null,
+            "imgUrl": "/api/media/23",
+            "id": 49
+        }
+    ]
+}

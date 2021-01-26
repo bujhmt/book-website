@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    {{> head}}
+    <body>
+    {{> header}}
+        <div class="card horizontal large book-card">
+            <div class="card-image">
+                <img
+                    src="{{avaUrl}}"
+                    alt="book img"
+                />
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h4>{{login}}</h4>
+                        </li>
+                        <li class="collection-item">Fullname: {{fullname}}</li>
+                        <li class="collection-item">
+                            Registration Date: {{registeredAt}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

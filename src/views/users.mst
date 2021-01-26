@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    {{> head}}
+    <body>
+        {{> header }}
+        <div class="main-books-page-wrapper">
+            <div class="card #000 my-card">
+                <div class="warning"> {{{warning}}} </div>
+                <div><caption>{{current}}</caption></div>
+                <div class="card-content black-text">
+                    <form action="/views/users">
+                        <div class="input-field">
+                            <i class="material-icons prefix">import_contacts</i>
+                            <input
+                                id="page"
+                                type="number"
+                                class="validate"
+                                name="page" 
+                                value="{{page}}" 
+                                min="0"
+                                step="1"
+                                placeholder="Page"
+                            />
+                        </div>
+
+                        <div class="input-field">
+                            <i class="material-icons prefix">filter_none</i>
+                            <input
+                                id="per_page"
+                                type="number"
+                                class="validate"
+                                name="per_page" 
+                                value="{{per_page}}" 
+                                min="0" 
+                                max="100"
+                                step="1"
+                                placeholder="Per Page"
+                            />
+                        </div>
+                        <button
+                                class="btn waves-effect waves-light"
+                                type="submit"
+                            >
+                                Paginate
+                                <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="user-books-wrapper">
+                {{#users}}
+                    <div class="card horizontal user-books-card">
+                        <div class="card-image user-books-img">
+                            <a href="/views/users/{{id}}">
+                                <img
+                                    src={{avaUrl}}
+                                    alt="user ava"
+                                />
+                            </a>
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <div class="user-books-card-content-div">
+                                    <i class="material-icons prefix">book</i>
+                                    <p>
+                                        Login: <b>{{login}}</b>
+                                    </p>
+                                </div>
+                                <div class="user-books-card-content-div">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <p>
+                                        Fullname: <b>{{fullname}}</b>
+                                    </p>
+                                </div>
+                                <div class="user-books-card-content-div">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <p>
+                                        Registration Date: <b>{{registeredAt}}</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <a href="/views/users/{{id}}">Go to Book Page</a>
+                            </div>
+                        </div>
+                    </div>
+                {{/users}}
+                <div class = "pag_link">
+                    <a class="waves-effect waves-light pag_but" href="{{{prev}}}"><i class="material-icons right">arrow_back</i></a>
+                    <a class="waves-effect waves-light pag_but" href="{{{next}}}"><i class="material-icons left">arrow_forward</i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
